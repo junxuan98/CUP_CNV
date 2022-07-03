@@ -3,11 +3,10 @@ from threading import Lock
 
 import numpy
 import pandas
-from matplotlib import pyplot as plt
 import pymysql
+from dtw.dtw_similarity import measure
 from gtfparse import read_gtf
-
-from dtw_similarity import measure
+from matplotlib import pyplot as plt
 
 # FIXME
 DB_HOST = "localhost"
